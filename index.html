@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prasanth Kosuri | Principal Anaplan Consultant</title>
+<meta name="description" content="Principal Anaplan consultant with 7 years in finance planning, building the data and AI layer behind planning decisions.">
+<style>
+:root{
+  --bg:#f1f4f8;--surface:#fff;--ink:#101c28;--muted:#53626f;--line:#d3dbe4;
+  --accent:#1f5fbf;--amber:#b87800;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#0b121b;--surface:#141f2b;--ink:#e8eef4;--muted:#9bacbc;--line:#263544;--accent:#6aa3ff;--amber:#e8b04a}
+}
+:root[data-theme="dark"]{--bg:#0b121b;--surface:#141f2b;--ink:#e8eef4;--muted:#9bacbc;--line:#263544;--accent:#6aa3ff;--amber:#e8b04a}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--sans)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+nav{display:flex;gap:18px;flex-wrap:wrap;align-items:center;padding:22px 0;font-size:15px}
+nav .brand{font-family:var(--serif);font-weight:700;font-size:19px;margin-right:auto;color:var(--ink);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--ink)}
+h1,h2,h3{font-family:var(--serif);line-height:1.12;margin:0}
+h1{font-size:clamp(44px,10vw,84px);letter-spacing:-.025em}
+h2{font-size:clamp(30px,5.5vw,44px);margin-bottom:10px;letter-spacing:-.01em}
+.hero{display:grid;gap:8px;padding:30px 0 50px;align-items:center}
+@media(min-width:760px){.hero{grid-template-columns:1.1fr 1fr;gap:30px}}
+.role{color:var(--accent);font-weight:600;margin:12px 0 16px;font-size:18px}
+.lede{font-size:clamp(19px,3.3vw,22px);max-width:30em;margin:0 0 26px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 20px;border-radius:6px;font-weight:600;text-decoration:none;border:1.5px solid var(--accent);color:var(--accent)}
+.btn.primary{background:var(--accent);color:var(--bg)}
+.stage{position:relative;height:340px;border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
+#cube{width:100%;height:100%;display:block}
+.cap{position:absolute;left:14px;bottom:10px;font-size:13px;color:var(--muted);margin:0;pointer-events:none}
+section{padding:60px 0;border-top:1px solid var(--line)}
+.intro{color:var(--muted);max-width:38em;margin:0 0 28px}
+.steps{display:grid}
+.step{padding:20px 0 20px 26px;border-left:3px solid var(--line);opacity:.5;transition:opacity .3s,border-color .3s}
+.step.on{opacity:1;border-color:var(--accent)}
+.step h3{font-size:25px;margin-bottom:6px}
+.step p{margin:0 0 10px;max-width:38em}
+.tags{display:flex;gap:8px;flex-wrap:wrap;padding:0;margin:0;list-style:none}
+.tags li{font-size:14px;padding:3px 10px;border:1px solid var(--line);border-radius:99px;color:var(--muted)}
+.grid{display:grid;gap:16px}
+@media(min-width:680px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:900px){.grid.three{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{font-size:21px;margin-bottom:8px}
+.card p{margin:0 0 10px;color:var(--muted);font-size:16px}
+.card .tags{margin-top:12px}
+.card.todo{border-style:dashed;background:transparent}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.filters button{font:inherit;font-size:15px;padding:7px 14px;border:1px solid var(--line);border-radius:99px;background:transparent;color:var(--muted);cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg);font-weight:600}
+.post small{display:block;color:var(--amber);font-weight:600;margin-bottom:4px;font-size:14px}
+.post .st{color:var(--muted);font-weight:400;font-size:13px}
+.links{display:flex;gap:14px;flex-wrap:wrap;margin-top:16px}
+footer{padding:30px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:15px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Main">
+  <a class="brand" href="#top">Prasanth Kosuri</a>
+  <a href="#pipeline">How I work</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#certs">Certifications</a>
+  <a href="#blog">Blog</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header class="hero" id="top">
+  <div>
+    <h1>Prasanth Kosuri</h1>
+    <p class="role">Principal Consultant, Anaplan</p>
+    <p class="lede">Seven years of building planning models finance teams trust. Now adding the data pipelines and AI agents that help them decide faster.</p>
+    <div class="btns">
+      <a class="btn primary" href="#services">What I offer</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="stage">
+    <canvas id="cube" aria-label="3D data cube, a slice of it lights up as you scroll through the steps below"></canvas>
+    <p class="cap">Planning is multidimensional. Move your pointer to turn the cube.</p>
+  </div>
+</header>
+
+<section id="pipeline">
+  <h2>How I work</h2>
+  <p class="intro">Every solution follows the same path. Scroll and watch the cube change the slice it lights up.</p>
+  <div class="steps">
+    <div class="step on" data-axis="0">
+      <h3>1. Connect</h3>
+      <p>Get clean data into the model from ERP, CRM and HR sources, mapped and validated before anyone plans on it.</p>
+      <ul class="tags"><li>Anaplan Connect</li><li>APIs</li><li>Python</li><li>SQL</li></ul>
+    </div>
+    <div class="step" data-axis="1">
+      <h3>2. Model</h3>
+      <p>Design dimensions and calculation logic so the model stays fast, auditable and easy for finance to own.</p>
+      <ul class="tags"><li>Anaplan</li><li>SPM</li><li>FP&amp;A</li><li>S&amp;OP</li></ul>
+    </div>
+    <div class="step" data-axis="2">
+      <h3>3. Predict</h3>
+      <p>Add forecasting and scenario logic that learns from history and explains what drives each number.</p>
+      <ul class="tags"><li>Forecasting</li><li>Scenarios</li><li>Economics</li></ul>
+    </div>
+    <div class="step" data-axis="3">
+      <h3>4. Decide</h3>
+      <p>Put AI agents on top of the model so planners can ask questions and compare scenarios, with a person approving the call.</p>
+      <ul class="tags"><li>LLM agents</li><li>Decision support</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <p class="intro">Where I can help your planning team.</p>
+  <div class="grid three">
+    <div class="card"><h3>Anaplan model building</h3><p>Design and build models from requirements to go-live, with clear handover to your team.</p></div>
+    <div class="card"><h3>Planning solutions</h3><p>SPM, FP&amp;A and S&amp;OP use cases, including incentive compensation.</p></div>
+    <div class="card"><h3>Data integration</h3><p>Reliable pipelines that load source data into Anaplan and keep it in sync.</p></div>
+    <div class="card"><h3>AI on your planning data</h3><p>Prototype agents and forecasting that support decisions, built with review steps for your finance team.</p></div>
+    <div class="card"><h3>Model review</h3><p>Performance, structure and best-practice checks on models that have grown hard to maintain.</p></div>
+    <div class="card"><h3>Advisory</h3><p>Roadmaps and guidance for teams moving from spreadsheets to connected planning.</p></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p class="intro">Client work with details kept confidential.</p>
+  <div class="grid">
+    <div class="card"><h3>Incentive compensation for a manufacturer</h3><p>Built an Anaplan ICM solution for a manufacturing client’s sales organization.</p><ul class="tags"><li>Anaplan</li><li>ICM</li><li>SPM</li></ul></div>
+    <div class="card todo"><h3>Add your next project</h3><p>Name the client type, the problem, what you built and the result.</p><ul class="tags"><li>FP&amp;A</li><li>S&amp;OP</li></ul></div>
+  </div>
+</section>
+
+<section id="certs">
+  <h2>Certifications</h2>
+  <p class="intro">Credentials and training.</p>
+  <div class="grid three">
+    <div class="card todo"><h3>Add certification</h3><p>Issuer, name and year.</p></div>
+    <div class="card todo"><h3>Add certification</h3><p>Issuer, name and year.</p></div>
+    <div class="card"><h3>MA Economics</h3><p>Degree.</p></div>
+  </div>
+</section>
+
+<section id="blog">
+  <h2>Blog</h2>
+  <p class="intro">Notes from building things, sorted three ways. First posts are on the way.</p>
+  <div class="filters" role="group" aria-label="Filter posts">
+    <button type="button" data-f="all" aria-pressed="true">All</button>
+    <button type="button" data-f="Technology" aria-pressed="false">Technology</button>
+    <button type="button" data-f="Tool" aria-pressed="false">Tool</button>
+    <button type="button" data-f="Skill" aria-pressed="false">Skill</button>
+  </div>
+  <div class="grid">
+    <div class="card post" data-t="Tool"><small>Tool: Python <span class="st">Planned</span></small><h3>Pulling Anaplan data with the API</h3></div>
+    <div class="card post" data-t="Technology"><small>Technology: Data pipelines <span class="st">Planned</span></small><h3>Feeding Anaplan from a modern pipeline</h3></div>
+    <div class="card post" data-t="Technology"><small>Technology: LLM agents <span class="st">Planned</span></small><h3>An agent that answers questions about a model</h3></div>
+    <div class="card post" data-t="Tool"><small>Tool: Anaplan <span class="st">Planned</span></small><h3>Model design habits that keep it fast</h3></div>
+    <div class="card post" data-t="Skill"><small>Skill: Forecasting <span class="st">Planned</span></small><h3>Why rolling averages fall short</h3></div>
+    <div class="card post" data-t="Skill"><small>Skill: Modeling <span class="st">Planned</span></small><h3>Thinking in dimensions</h3></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Let’s talk</h2>
+  <p class="intro">Working on planning, data or AI agents for finance? I’d like to hear about it.</p>
+  <div class="links">
+    <a class="btn primary" href="#contact">Email me</a>
+    <a class="btn" href="#contact">LinkedIn</a>
+    <a class="btn" href="#contact">GitHub</a>
+  </div>
+</section>
+<footer>© 2026 Prasanth Kosuri</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+  /* blog filter */
+  var fb=document.querySelectorAll('.filters button'),posts=document.querySelectorAll('.post');
+  fb.forEach(function(b){b.addEventListener('click',function(){
+    fb.forEach(function(x){x.setAttribute('aria-pressed',String(x===b))});
+    var f=b.getAttribute('data-f');
+    posts.forEach(function(p){p.hidden=(f!=='all'&&p.getAttribute('data-t')!==f)});
+  })});
+  /* steps */
+  var axis=0,steps=document.querySelectorAll('.step');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){
+      steps.forEach(function(s){s.classList.remove('on')});e.target.classList.add('on');axis=+e.target.getAttribute('data-axis');
+    }})},{rootMargin:'-40% 0px -50% 0px'});
+    steps.forEach(function(s){io.observe(s)});
+  }else{steps.forEach(function(s){s.classList.add('on')})}
+  /* 3D cube */
+  var canvas=document.getElementById('cube');
+  if(typeof THREE==='undefined'){canvas.parentNode.style.display='none';return}
+  try{
+    var R=new THREE.WebGLRenderer({canvas:canvas,antialias:true,alpha:true});
+    R.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+    var scene=new THREE.Scene(),cam=new THREE.PerspectiveCamera(40,1,.1,100);cam.position.set(0,0,10);
+    var N=7,S=.8,idx=[],pos=[];
+    for(var x=0;x<N;x++)for(var y=0;y<N;y++)for(var z=0;z<N;z++){idx.push([x,y,z]);pos.push((x-3)*S,(y-3)*S,(z-3)*S)}
+    var colors=new Float32Array(idx.length*3);
+    var g=new THREE.BufferGeometry();
+    g.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
+    g.setAttribute('color',new THREE.BufferAttribute(colors,3));
+    var pts=new THREE.Points(g,new THREE.PointsMaterial({size:.17,vertexColors:true,transparent:true,opacity:.95}));
+    var box=new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(N*S-.2,N*S-.2,N*S-.2)),new THREE.LineBasicMaterial({transparent:true,opacity:.45}));
+    var grp=new THREE.Group();grp.add(pts);grp.add(box);scene.add(grp);
+    var cs,cBase,cAcc,cAmb;
+    function theme(){
+      cs=getComputedStyle(document.documentElement);
+      cBase=new THREE.Color(cs.getPropertyValue('--muted').trim());
+      cAcc=new THREE.Color(cs.getPropertyValue('--accent').trim());
+      cAmb=new THREE.Color(cs.getPropertyValue('--amber').trim());
+      box.material.color=cAcc;
+    }
+    theme();
+    if(window.matchMedia)window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',function(){theme();paint(0);draw()});
+    function paint(t){
+      var s=Math.floor(t*1.4)%N,hot=Math.floor(t*3)%idx.length;
+      for(var i=0;i<idx.length;i++){
+        var p=idx[i],c=cBase,k=.35;
+        if(axis<3){if(p[axis]===s){c=cAcc;k=1}}
+        else{c=cAcc;k=.5+.5*Math.sin(t*2+p[0]+p[1]+p[2])}
+        if(i===hot){c=cAmb;k=1}
+        colors[i*3]=c.r*k+(1-k)*cBase.r*.6;colors[i*3+1]=c.g*k+(1-k)*cBase.g*.6;colors[i*3+2]=c.b*k+(1-k)*cBase.b*.6;
+      }
+      g.attributes.color.needsUpdate=true;
+    }
+    function size(){
+      var w=canvas.clientWidth,h=canvas.clientHeight;
+      R.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix();
+    }
+    function draw(){R.render(scene,cam)}
+    var tx=0,ty=0,rx=.5,ry=.6;
+    window.addEventListener('pointermove',function(e){tx=(e.clientX/window.innerWidth-.5)*1.2;ty=(e.clientY/window.innerHeight-.5)*.8});
+    window.addEventListener('resize',function(){size();draw()});
+    size();paint(0);
+    var still=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    grp.rotation.set(rx,ry,0);draw();
+    if(!still){
+      var t0=performance.now();
+      (function loop(now){
+        var t=(now-t0)/1000;
+        ry+=.004;grp.rotation.y=ry+tx;grp.rotation.x=rx+ty;
+        paint(t);draw();requestAnimationFrame(loop);
+      })(t0);
+    }
+  }catch(err){canvas.parentNode.style.display='none'}
+})();
+</script>
+</body>
+</html>
